@@ -35,7 +35,7 @@ for sub_id in "${list1[@]}"; do
     for scan_id in "${list2[@]}"; do
         echo "Processing ${sub_id} and ${scan_id}"
         
-        yes | fw download "mormino/Lucas_PETMR/${sub_id}/" --include="*/*/${scan_id}/*" -i bval -i bvec -o "${sub_id}/${sub_id}_${scan_id}.tar"
+        yes | fw ls "mormino/Lucas_PETMR/${sub_id}/" --include="*/*/${scan_id}/*" -i bval -i bvec -o "${sub_id}/${sub_id}_${scan_id}.tar"
     done
 done
 
