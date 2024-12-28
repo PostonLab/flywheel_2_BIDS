@@ -7,11 +7,11 @@
 #done < /Users/kjung6/Eva/subj_list.txt
 
 #path to scans of interest list
-scans="/Users/kjung6/Eva/scan_list.txt"
+scans="scan_list.txt"
 #path to subjects of interest list
-subj="/Users/kjung6/Eva/subj_list2.txt"
+subj="subj_list.txt"
 #path to output
-output="/Users/kjung6/Eva/flywheel/"
+output="/mnt/poston/projects/parkinsons/postonlab/EvaETP_IVIM/download_fw/"
 
 # Initialize empty arrays to store the contents of the files
 list1=()
@@ -35,7 +35,7 @@ for sub_id in "${list1[@]}"; do
     for scan_id in "${list2[@]}"; do
         echo "Processing ${sub_id} and ${scan_id}"
         
-        yes | fw ls "mormino/Lucas_PETMR/${sub_id}/" --include="*/*/${scan_id}/*" -i bval -i bvec -o "${sub_id}/${sub_id}_${scan_id}.tar"
+        yes | fw ls "mormino/Lucas_PETMR/${sub_id}/" -o "${sub_id}/${sub_id}_${scan_id}.tar"
     done
 done
 
