@@ -1,0 +1,15 @@
+# Please fill necessary data that you want to include in the dataset description
+Name: "My Dataset"
+BIDSVersion: "1.6.0"
+License: "CC BY 4.0"
+Authors:
+  - "Jane Doe"
+  - "John Smith"
+Acknowledgements: "This work was supported by XYZ Grant."
+ReferencesAndLinks:
+  - "https://doi.org/10.XXXX/XXXXXX"
+  - "https://github.com/username/project"
+HowToAcknowledge: "Please cite this dataset as: Doe, J., & Smith, J. (2023). My Dataset. Journal of Neuroimaging."
+DatasetType: "raw"
+Funding:
+  - "National Institutes of Health (NIH) Grant XYZ"
