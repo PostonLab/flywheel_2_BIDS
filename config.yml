@@ -1,0 +1,20 @@
+api_key: "lucascenter.flywheel.io:djEd4vv57ZVUICwM5WBxFqWHn7KyaTctfEqUG3M2R7m5e1H_d5g-cScyg"  # Replace with your Flywheel API key
+participants_csv: "participants_ids.csv"
+fw_project_path: "mormino/Lucas_PETMR"
+output_dir: "/mnt/poston/projects/parkinsons/postonlab/EvaETP_IVIM/test_fw_bids"
+temp_dir: "/scratch"
+config_json: "/mnt/poston/projects/parkinsons/postonlab/EvaETP_IVIM/flywheel_2_BIDS/dcm2bids_config.json"
+num_threads: 5 # If exceeding 10 in Gene, please use 'nice -n' as described in https://gene.stanford.edu/docs/#temporary-files
+scan_names:
+  - CLARiTI_Accelerated_Sagittal
+  - DTI_108_7s_2thick_2space_DL
+  - DTI_84_7s_2thick_2space_DL_pepolar 
+  - CLARiTI_Accelerated_Sagittal
+  - Accelerated Sagittal IR-FSPGR (SCAN)
+exclude_strings:
+  - SOURCE
+BIDS_validate: True 
+clean_up: True # Replace with False only if you want to keep the intermediate dicom files (not recommended)
+
+
+
