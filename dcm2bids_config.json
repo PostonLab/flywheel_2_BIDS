@@ -42,7 +42,7 @@
         "Entity": "anat",
         "Modality": "T1w",
         "criteria": {
-          "SeriesDescription": "CLARiTI Accelerated Sagittal MPRAGE (MSV22)"
+          "SeriesDescription": "Accelerated Sagittal IR-FSPGR (SCAN)"
         }
       },
       {

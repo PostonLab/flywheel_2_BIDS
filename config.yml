@@ -1,4 +1,4 @@
-api_key: "your_API_key"  # Replace with your Flywheel API key
+api_key: "lucascenter.flywheel.io:djEBhgifMq6QtwDRyPJpSNLs2EyTC2LZ6qivXElvZZTpW73xKNJsSvE7Q"  # Replace with your Flywheel API key
 participants_csv: "participants_ids.csv"
 fw_project_path: "mormino/Lucas_PETMR"
 output_dir: "/mnt/poston/projects/parkinsons/postonlab/EvaETP_IVIM/test_fw_bids"
@@ -6,10 +6,7 @@ temp_dir: "/scratch"
 config_json: "/mnt/poston/projects/parkinsons/postonlab/EvaETP_IVIM/flywheel_2_BIDS/dcm2bids_config.json"
 num_threads: 5 # If exceeding 10 in Gene, please use 'nice -n' as described in https://gene.stanford.edu/docs/#temporary-files
 scan_names:
-  - CLARiTI_Accelerated_Sagittal
-  - DTI_108_7s_2thick_2space_DL
-  - DTI_84_7s_2thick_2space_DL_pepolar 
-  - CLARiTI_Accelerated_Sagittal
+  - Cor T2 OBL NEX 1
   - Accelerated Sagittal IR-FSPGR (SCAN)
 exclude_strings:
   - SOURCE
