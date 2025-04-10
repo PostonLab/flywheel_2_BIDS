@@ -80,4 +80,4 @@ Have questions or suggestions? Open an issue or reach out via [GitHub Discussion
 
 ---
 
-**Built with ❤️ by [Dimuthu Hemachandra] and the neuroimaging community.**  
+**Built with ❤️ by Dimuthu Hemachandra and the neuroimaging community.**  
